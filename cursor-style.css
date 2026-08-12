@@ -1,0 +1,9 @@
+/* This targets the left-hand icon strip */
+.part.activitybar {
+    background-color: #ff0000 !important;
+}
+
+/* This targets the main editor area */
+.monaco-editor, .monaco-editor .inputarea.ime-input {
+    background-color: #ff0000 !important;
+}

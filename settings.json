@@ -1,0 +1,131 @@
+{
+  "debug.allowBreakpointsEverywhere": true,
+  "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+    },
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnSave": true,
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+  },
+  "isort.args": ["--profile", "black"],
+  "files.autoSave": "afterDelay",
+  "github.copilot.enable": {
+    "enabled": true,
+  },
+  "git.suggestSmartCommit": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.ignoreRebaseWarning": true,
+  "git.confirmSync": false,
+  "window.zoomPerWindow": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmPasteNative": false,
+  "editor.formatOnSave": true,
+  "explorer.confirmDragAndDrop": false,
+  "go.toolsManagement.autoUpdate": true,
+  "python.analysis.autoFormatStrings": true,
+  "makefile.configureOnOpen": false,
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.gz": "default",
+  },
+  "workbench.statusBar.visible": false,
+  "docker.extension.enableComposeLanguageServer": false,
+  "cursorpyright.analysis.typeCheckingMode": "off",
+  "git.autofetch": true,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true,
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorBlinking": "phase",
+  // "workbench.colorTheme": "Default Dark Modern",
+
+  // Pets
+  "vscode-pets.theme": "winter",
+  "vscode-pets.throwBallWithMouse": true,
+  "vscode-pets.petSize": "medium",
+
+  // Font
+  "editor.fontFamily": "Monaspace Neon Var, Fira Code, Monaco, monospace",
+  "editor.fontSize": 12,
+  "editor.fontVariations": "'wght' 350",
+  "editor.fontLigatures": "'calt', 'liga', 'ss03', 'ss04', 'ss06'",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": { "fontStyle": "italic" },
+      },
+      {
+        "scope": "storage,entity,variable",
+        "settings": { "fontStyle": "" },
+      },
+    ],
+  },
+  // "terminal.integrated.fontFamily":
+  //   "Monaspace Neon Var, Fira Code, Monaco, monospace", # Replaced with Powerlevel10K
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontWeight": 500,
+  "terminal.integrated.fontWeightBold": 800,
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Powerlevel 10k Stuff
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+
+  // Custom UI
+  // "custom-ui-style.stylesheets": {
+  //   ".monaco-workbench": "font-family: 'React'; /* Your CSS here */",
+  //   ".part.sidebar": "background-color: #ff0000 !important;"
+  // }
+
+  // Custom CSS
+  // "vscode_custom_css.imports": ["file:///Users/faizan.choudhary/Documents/cursor-style.css"]
+  "vscode_custom_css.imports": [
+    "file:///Users/faizan.choudhary/Documents/custom-vscode.css",
+    "file:///Users/faizan.choudhary/Documents/custom-vscode.js",
+  ],
+
+  // Background
+  "background.enabled": true,
+  "background.fullscreen": {
+    "useFront": true,
+    "style": {
+      "background-position": "100% 100%",
+      "background-size": "auto",
+      "opacity": 0.1,
+    },
+    "styles": [{}, {}, {}],
+    "images": ["file:///Users/faizan.choudhary/Documents/background.jpg"],
+    "interval": 0,
+    "random": false,
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.autoDetectColorScheme": false,
+  "window.zoomLevel": -1,
+  "extensions.installCooldownHours": 72,
+}

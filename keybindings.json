@@ -1,0 +1,12 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+cmd+i",
+    "command": "-workbench.panel.chat",
+    "when": "workbench.panel.chat.view.copilot.active"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.openRecent"
+  }
+]
